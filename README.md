@@ -5,8 +5,8 @@ Code sets up a Flask web application that allows users to enter a URL and scrape
 Web Scraping Function (scrape_website):
 
 Sends an HTTP request to the provided URL.
-Extracts text content from '<h1>', '<h2>', '<h3>', '<p>', '<a>', '<span>', and '<div>' elements.
-Captures hyperlinks if found in <a> tags.
+Extracts text content from < h1 >, < h2 >, < h3 >, < p >, < a >, < span >, and < div > elements.
+Captures hyperlinks if found in < a > tags. 
 Returns the extracted data as a list of dictionaries.
 Flask Web Application:
 
